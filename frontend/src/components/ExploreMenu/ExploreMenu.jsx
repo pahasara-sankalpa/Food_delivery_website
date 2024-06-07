@@ -2,7 +2,7 @@ import React from "react";
 import "./ExploreMenu.css";
 import { menu_list } from "../../assets/assets";
 
-const ExploreMenu = ({ category, setCatergory }) => {
+const ExploreMenu = ({ category, setCategory }) => {
   return (
     <div className="explore-menu" id="explore-menu">
       <h1>Explore our Menu</h1>
@@ -11,7 +11,7 @@ const ExploreMenu = ({ category, setCatergory }) => {
           return (
             <div
               onClick={() =>
-                setCatergory((prev) =>
+                setCategory((prev) =>
                   prev === item.menu_name ? "All" : item.menu_name
                 )
               }

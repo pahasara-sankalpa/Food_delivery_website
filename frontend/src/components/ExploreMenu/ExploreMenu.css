@@ -49,29 +49,9 @@
     padding: 2px;
 }
 
-/* Media Queries */
-@media screen and (max-width: 768px) {
-    .explore-menu-list-item img {
-        width: 15vw;
-    }
-    .explore-menu-list {
-        gap: 15px;
-        margin-bottom: 10px;
-        overflow-x: auto;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .explore-menu h1 {
-        font-size: 24px;
-    }
-    .explore-menu-list-item img {
-        width: 30vw;
-        min-width: 60px;
-    }
-    .explore-menu-list {
-        gap: 10px;
-        margin-bottom: 5px;
-        overflow-x: auto;
+@media(max-width:1050px) {
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
     }
 }
